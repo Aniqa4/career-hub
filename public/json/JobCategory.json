@@ -1,0 +1,24 @@
+[
+    {
+      "category_logo": "https://png.pngtree.com/png-clipart/20210321/original/pngtree-technology-logo-template-png-image_6139771.jpg",
+      "category_name": "Technology",
+      "jobs_available": 1000
+    },
+    {
+      "category_logo": "https://marketplace.canva.com/EAE3ErRzI6g/1/0/1600w/canva-people-dollar-logo%2C-money-finances-logo-gdfxtb4mf80.jpg",
+      "category_name": "Finance",
+      "jobs_available": 500
+    },
+    {
+      "category_logo": "https://i.pinimg.com/originals/2a/35/b1/2a35b15e65c10785fb21d0f7a63e1a72.jpg",
+      "category_name": "Healthcare",
+      "jobs_available": 300
+    },
+    {
+      "category_logo": "https://img.freepik.com/premium-vector/book-pencil-graduation-cap-sun-educational-logo-design-vector-template_736856-117.jpg",
+      "category_name": "Education",
+      "jobs_available": 200
+    }
+
+]
+  
