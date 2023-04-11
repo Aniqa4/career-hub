@@ -1,0 +1,111 @@
+[
+    {
+        "id": 1,
+        "companyLogo": "https://freepngimg.com/download/temp_png/66907-images-logo-google-free-download-png-hd.jpeg",
+        "jobTitle": "Software Engineer",
+        "companyName": "Google",
+        "remoteOrOnsite": "Onsite",
+        "location": "Mountain View, CA",
+        "fulltimeOrParttime": "Full-time",
+        "salary": 120000,
+        "jobDescription": "We are looking for a skilled software engineer...",
+        "jobResponsibility": "Responsibilities include designing and implementing software solutions...",
+        "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "3+ years of professional software development experience",
+        "contactInformation": {
+          "phone": "123-456-7890",
+          "email": "jobs@google.com"
+        }
+      },
+      {
+        "id": 2,
+        "companyLogo": "https://1000logos.net/wp-content/uploads/2017/04/Microsoft-logo.jpg",
+        "jobTitle": "Data Scientist",
+        "companyName": "Microsoft",
+        "remoteOrOnsite": "Remote",
+        "location": "Redmond, WA",
+        "fulltimeOrParttime": "Full-time",
+        "salary": 110000,
+        "jobDescription": "We are seeking a skilled data scientist...",
+        "jobResponsibility": "Responsibilities include analyzing data, developing models...",
+        "educationalRequirements": "Master's degree in Data Science, Statistics, or related field",
+        "experiences": "5+ years of experience in data science or related field",
+        "contactInformation": {
+          "phone": "987-654-3210",
+          "email": "jobs@microsoft.com"
+        }
+      },
+      {
+        "id": 3,
+        "companyLogo": "https://www.vectorlogo.zone/logos/apple/apple-ar21.png",
+        "jobTitle": "UX Designer",
+        "companyName": "Apple",
+        "remoteOrOnsite": "Onsite",
+        "location": "Cupertino, CA",
+        "fulltimeOrParttime": "Full-time",
+        "salary": 100000,
+        "jobDescription": "We are looking for a talented UX designer...",
+        "jobResponsibility": "Responsibilities include designing user interfaces, creating wireframes...",
+        "educationalRequirements": "Bachelor's degree in UX Design, Graphic Design, or related field",
+        "experiences": "3+ years of professional UX design experience",
+        "contactInformation": {
+          "phone": "456-789-0123",
+          "email": "jobs@apple.com"
+        }
+      },
+      {
+        "id": 4,
+        "companyLogo": "https://cdn.freebiesupply.com/images/large/2x/amazon-logo-transparent.png",
+        "jobTitle": "Product Manager",
+        "companyName": "Amazon",
+        "remoteOrOnsite": "Remote",
+        "location": "Seattle, WA",
+        "fulltimeOrParttime": "Full-time",
+        "salary": 130000,
+        "jobDescription": "We are seeking an experienced product manager...",
+        "jobResponsibility": "Responsibilities include defining product vision, creating roadmaps...",
+        "educationalRequirements": "Bachelor's degree in Business, Marketing, or related field",
+        "experiences": "5+ years of product management experience",
+        "contactInformation": {
+          "phone": "321-654-9870",
+          "email": "jobs@amazon.com"
+        }
+      },
+      {
+        "id": 5,
+        "companyLogo": "https://freepngimg.com/download/temp_png/66907-images-logo-google-free-download-png-hd.jpeg",
+        "jobTitle": "Frontend Developer",
+        "companyName": "Facebook",
+        "remoteOrOnsite": "Onsite",
+        "location": "Menlo Park, CA",
+        "fulltimeOrParttime": "Full-time",
+        "salary": 110000,
+        "jobDescription": "We are looking for a skilled frontend developer with expertise in React and Redux...",
+        "jobResponsibility": "Responsibilities include developing user interfaces, implementing UI designs...",
+        "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "3+ years of professional frontend development experience",
+        "contactInformation": {
+          "phone": "789-012-3456",
+          "email": "jobs@facebook.com"
+        }
+      },
+      {
+        "id": 6,
+        "companyLogo": "https://cdn.freebiesupply.com/logos/large/2x/linkedin-logo-png-transparent.png",
+        "jobTitle": "Marketing Coordinator",
+        "companyName": "LinkedIn",
+        "remoteOrOnsite": "Onsite",
+        "location": "Sunnyvale, CA",
+        "fulltimeOrParttime": "Full-time",
+        "salary": 80000,
+        "jobDescription": "We are seeking a marketing coordinator...",
+        "jobResponsibility": "Responsibilities include coordinating marketing campaigns, managing social media...",
+        "educationalRequirements": "Bachelor's degree in Marketing, Communications, or related field",
+        "experiences": "2+ years of marketing or communications experience",
+        "contactInformation": {
+          "phone": "987-012-3456",
+          "email": "jobs@linkedin.com"
+        }
+      }  
+]      
+      
