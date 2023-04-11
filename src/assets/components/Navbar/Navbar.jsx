@@ -1,5 +1,5 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -8,6 +8,7 @@ function Navbar() {
             <div className=' font-bold text-2xl'>InsufficientJobs</div>
             <div>
                 <ul className='flex gap-5'>
+                    <Link to="/">Home</Link>
                     <li>Statistics</li>
                     <li>Applied Jobs</li>
                     <li>Blog</li>
