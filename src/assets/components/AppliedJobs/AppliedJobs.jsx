@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function AppliedJobs() {
   let data;
@@ -27,8 +28,8 @@ function AppliedJobs() {
                 </div>
               </div>
             </div>
-            <div className=' self-center'>
-              <button className='text-white font-semibold bg-purple-500 rounded-md p-2 text-center'>View Details</button>
+            <div className='self-center'>
+              <button className='text-white font-semibold bg-purple-500 rounded-md p-2 text-center'><Link to={`/details/${x.id}`}>View Details</Link></button>
             </div>
           </div>
         )

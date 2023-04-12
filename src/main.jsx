@@ -9,8 +9,13 @@ import Navbar from './assets/components/Navbar/Navbar';
 import Home from './assets/components/Home/Home';
 import Details from './assets/components/Details/Details';
 import AppliedJobs from './assets/components/AppliedJobs/AppliedJobs';
+import PageNotFound from './assets/components/PageNotFound/PageNotFound';
 
 const router=createBrowserRouter([
+  {
+    path:"*",
+    element:<PageNotFound></PageNotFound>
+  },
   {
     path:"/",
     element: <Navbar></Navbar>,
