@@ -1,18 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 
 function AppliedJobs() {
+  const [filteredData, setFilteredData] = useState(null);
   let data;
     const jsonData=localStorage.getItem('object')
-    data=JSON.parse(jsonData)
-    
+    data=JSON.parse(jsonData);
+
+    const handleFilter = (location) => {
+      const filteredJobs = data.filter(job => job.remoteOrOnsite === location);
+      setFilteredData(filteredJobs);
+    }
+
   return (
     <div>
       <h1 className='text-3xl font-bold text-center py-20 bg-gray-100 mb-20'>{data?'Applied Jobs':'You did not apply yet'}</h1>
-      <button className='font-semibold bg-gray-100 rounded-md p-3 text-center mb-5 me-5 border'>On-site</button>
-      <button className='font-semibold bg-gray-100 rounded-md p-3 text-center mb-5 border'>Remote</button>
+      <button onClick={()=>handleFilter('Onsite')} className='font-semibold bg-gray-100 rounded-md p-3 text-center mb-5 me-5 border'>On-site</button>
+      <button onClick={()=>handleFilter('Remote')} className='font-semibold bg-gray-100 rounded-md p-3 text-center mb-5 border'>Remote</button>
       {
-        data&&data.map(x=>
+         (filteredData || data) && (filteredData || data).map(x=>
           <div>
            <div key={x.id} className='bg-gray-100 my-5 p-5 flex justify-between rounded-md'>
             <div className='flex'>
@@ -25,8 +31,8 @@ function AppliedJobs() {
                   <button className='rounded border border-purple-500 p-2 text-purple-500'>{x.fulltimeOrParttime}</button>
                 </div>
                 <div>
-                  <p>{x.location}</p>
-                  <p>{x.salary}</p>
+                  <p>Location : {x.location}</p>
+                  <p>Salary : {x.salary}</p>
                 </div>
               </div>
             </div>

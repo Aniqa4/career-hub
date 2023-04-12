@@ -43,7 +43,7 @@ function Jobs() {
                             </div>
                             <div className='flex gap-5'>
                                 <p>
-                                    {job.location}
+                                    Location : {job.location}
                                 </p>
                                 <p>
                                    Salary : {job.salary}
