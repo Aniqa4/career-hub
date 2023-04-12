@@ -10,6 +10,7 @@ import Home from './assets/components/Home/Home';
 import Details from './assets/components/Details/Details';
 import AppliedJobs from './assets/components/AppliedJobs/AppliedJobs';
 import PageNotFound from './assets/components/PageNotFound/PageNotFound';
+import Chart from './assets/components/Chart/Chart';
 
 const router=createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router=createBrowserRouter([
         path:"/appliedjobs",
         element: <AppliedJobs></AppliedJobs>,
         loader: ({params})=> params
+      },
+      {
+        path:"/statistics",
+        element: <Chart></Chart>
       }
     ]
   }
