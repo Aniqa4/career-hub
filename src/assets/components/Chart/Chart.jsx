@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { PieChart, Pie, Sector, Cell} from 'recharts';
+import { PieChart, Pie, Tooltip} from 'recharts';
 
 const data = [
   { name: 'Assignment 1', value: 60 },
@@ -31,6 +31,7 @@ export default class Example extends PureComponent {
             fill="#8884d8"
             label
           />
+          <Tooltip />
         </PieChart>
       </div>
     )
