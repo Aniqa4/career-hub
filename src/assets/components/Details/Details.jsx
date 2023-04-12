@@ -11,9 +11,17 @@ function Details() {
     const jobData=data.find(x=>x.id==id);
 
     const applyNow=()=>{
+        const storedItems=localStorage.getItem('object');
+        let arr;
+        if(storedItems===null){
+            arr=[]
+        }
+        else{
+            arr= JSON.parse(storedItems)
+        }
+        arr.push(jobData);
         
-        const dataString=JSON.stringify(jobData);
-        localStorage.setItem('object',dataString)
+        localStorage.setItem('object',JSON.stringify(arr))
     }
     
   return (
