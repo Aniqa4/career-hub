@@ -8,6 +8,7 @@ import {
 import Navbar from './assets/components/Navbar/Navbar';
 import Home from './assets/components/Home/Home';
 import Details from './assets/components/Details/Details';
+import AppliedJobs from './assets/components/AppliedJobs/AppliedJobs';
 
 const router=createBrowserRouter([
   {
@@ -21,7 +22,12 @@ const router=createBrowserRouter([
       {
         path:"/details/:id",
         element:<Details></Details>,
-        loader: ({params}) => fetch(`json/jobs.json`)
+        loader: ({params}) => fetch('/json/jobs.json')
+      },
+      {
+        path:"/appliedjobs",
+        element: <AppliedJobs></AppliedJobs>,
+        loader: ({params})=> params
       }
     ]
   }

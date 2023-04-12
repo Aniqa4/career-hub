@@ -1,0 +1,22 @@
+.details{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 100px 0;
+}
+.details-left h1{
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.details-left p{
+    color:gray;
+}
+
+.style-span span{
+    font-weight: bold;
+    color: black;
+}
+.style-span p{
+    padding: 5px;
+    color: gray ;
+}

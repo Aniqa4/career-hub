@@ -8,9 +8,9 @@ function Navbar() {
             <div className=' font-bold text-2xl'>InsufficientJobs</div>
             <div>
                 <ul className='flex gap-5'>
-                    <Link to="/">Home</Link>
+                    <li><Link to="/">Home</Link></li>
                     <li>Statistics</li>
-                    <li>Applied Jobs</li>
+                    <li><Link to="/appliedjobs">Applied Jobs</Link></li>
                     <li>Blog</li>
                 </ul>
             </div>
