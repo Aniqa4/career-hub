@@ -19,8 +19,9 @@ function Jobs() {
   return (
     <div>
         <h1 className='pt-20 text-center text-3xl font-bold'>Featured Jobs</h1>
-        <p className=' text-center pb-5'>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-        <div className='grid grid-cols-2 gap-5'>
+        <p className=' text-center pb-5'>Explore thousand of jobs.</p>
+        <div className='md:grid md:grid-cols-2 md:gap-5'>
+        
             {  
                 jobs.slice(0,4).map( job => 
                     

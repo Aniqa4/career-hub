@@ -8,11 +8,13 @@ function AppliedJobs() {
     
   return (
     <div>
-      <h1 className='text-3xl font-bold text-center py-20 bg-gray-100 mb-20'>Applied Jobs</h1>
-      <button className='font-semibold bg-gray-100 rounded-md p-3 text-center mb-5'>Filter By</button>
+      <h1 className='text-3xl font-bold text-center py-20 bg-gray-100 mb-20'>{data?'Applied Jobs':'You did not apply yet'}</h1>
+      <button className='font-semibold bg-gray-100 rounded-md p-3 text-center mb-5 me-5 border'>On-site</button>
+      <button className='font-semibold bg-gray-100 rounded-md p-3 text-center mb-5 border'>Remote</button>
       {
-        data.map(x=>
-          <div key={x.id} className='bg-gray-100 my-5 p-5 flex justify-between rounded-md'>
+        data&&data.map(x=>
+          <div>
+           <div key={x.id} className='bg-gray-100 my-5 p-5 flex justify-between rounded-md'>
             <div className='flex'>
               <div className=' self-center pe-5'><img src={x.companyLogo} style={{width:"100px"}} /></div>
               <div>
@@ -31,7 +33,9 @@ function AppliedJobs() {
             <div className='self-center'>
               <button className='text-white font-semibold bg-purple-500 rounded-md p-2 text-center'><Link to={`/details/${x.id}`}>View Details</Link></button>
             </div>
+          </div>           
           </div>
+
         )
       }
     </div>

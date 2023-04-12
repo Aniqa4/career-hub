@@ -10,13 +10,13 @@ function JobCategoryList() {
 
 
   return (
-    <div className='text-center'>
+    <div className='md:text-center'>
         <h1 className=' text-2xl font-bold mb-5 mt-20'>Job Category List</h1>
-        <p>dsfaiuuuuuuuuuuuuhiuaussjjjjjjjjjjjjjj</p>
-        <div className='flex justify-between mt-10'>
+        <p>Explore thousand of jobs.</p>
+        <div className='md:flex md:justify-between mt-10'>
             {
                 category.map((item,index) => 
-                <div key={index} className='bg-gray-100 p-10'>
+                <div key={index} className='bg-gray-100 p-10 my-5'>
                     <img src={item.category_logo} style={{width:'200px'}} className='rounded-md'/>
                     <h1>
                         {item.category_name}
