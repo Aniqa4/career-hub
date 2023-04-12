@@ -11,6 +11,7 @@ import Details from './assets/components/Details/Details';
 import AppliedJobs from './assets/components/AppliedJobs/AppliedJobs';
 import PageNotFound from './assets/components/PageNotFound/PageNotFound';
 import Chart from './assets/components/Chart/Chart';
+import Blog from './assets/components/Blog/Blog';
 
 const router=createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router=createBrowserRouter([
       {
         path:"/statistics",
         element: <Chart></Chart>
+      },
+      {
+        path: "/blog",
+        element:<Blog></Blog>
       }
     ]
   }
